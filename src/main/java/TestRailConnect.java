@@ -13,8 +13,8 @@ public class TestRailConnect {
 	
 	public static void main(String[] args) throws Exception
 	{
-		final String username = "james.vanhorn@weather.com";
-		final String password = "U8WPzCY2zllu/AYXNVO/-df36mVybFBCJ.hIUnnEc"; //Go to TestRail and create an api key to prevent plaintext password
+		final String username = "your.email@weather.com";
+		final String password = "<Add a password or api key>"; //Go to TestRail and create an api key to prevent plaintext password
 		final String testRailServer = "https://twcqa.testrail.com/"; 
 		
 		//Using library suggested on TestRail's website. Classes are APIClient and APIException
